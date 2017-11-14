@@ -5,6 +5,19 @@ header{
 }
 body{
   min-width: 350px;
+  background-color:#9fcfcf;
+}
+ul li a {
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+}
+a:link{
+    color:#800080;
+  }
+a:visited{  color:#800080;
 }
   /*for large screens*/
 @media screen and (min-width: 1000px){
@@ -12,11 +25,6 @@ body{
     position: absolute;
     left: 25%;
     width: auto;
-    }
-    ul li a {
-      display: block;
-      font-size: large;
-      text-decoration: none;
     }
   #logo{
     position: absolute;
@@ -35,6 +43,9 @@ body{
     top: 100px;
     left: 10%;
     max-width: 45%;
+    border-style: solid;
+    border-color: #000080;
+    padding: 5px;
   }
   #software{
     display: block;
@@ -43,6 +54,9 @@ body{
     top: 100px;
     right: 10%;
     max-width: 45%;
+    border-style: solid;
+    border-color: #000080;
+    padding: 5px;
   }
   footer{
     display: inline-block;
@@ -61,11 +75,6 @@ body{
     position: absolute;
     left: 15%;
     width: auto;
-    }
-    ul li a {
-      display: block;
-      font-size: large;
-      text-decoration: none;
     }
   #logo{
     position: absolute;
@@ -86,7 +95,10 @@ body{
     top: 100px;
     left: 5%;
     min-width: 10%;
-    max-width: 45%;
+    max-width: 40%;
+    border-style: solid;
+    border-color: #000080;
+    padding: 5px;
   }
   #software{
     display: block;
@@ -95,7 +107,10 @@ body{
     top: 100px;
     right: 5%;
     min-width: 10%;
-    max-width: 45%;
+    max-width: 40%;
+    border-style: solid;
+    border-color: #000080;
+    padding: 5px;
   }
   footer{
     display: inline-block;
@@ -114,11 +129,6 @@ body{
     position: relative;
     width: auto;
     }
-    ul li a {
-      display: block;
-      font-size: large;
-      text-decoration: none;
-    }
   #logo{
     position: relative;
     height: 250px;
@@ -127,7 +137,7 @@ body{
   #components{
     position: absolute;
     align-self: center;
-    top: 425px;
+    top: 475px;
     width: 100%;
     min-width: 350px;
   }
@@ -139,15 +149,23 @@ body{
     top: 100px;
     min-width: 10%;
     max-width: 45%;
+    border-style: solid;
+    border-color: #000080;
+    padding: 0px 5px;
+    margin-top: 5px;
   }
   #software{
     display: block;
     text-align: center;
     position: absolute;
     left: 25%;
-    top: 225px;
+    top: 250px;
     min-width: 10%;
     max-width: 45%;
+    border-style: solid;
+    border-color: #000080;
+    padding: 0px 5px;
+    margin-top: 5px;
   }
   footer{
     display: inline-block;
@@ -155,7 +173,7 @@ body{
     font-size: x-small;
     position: absolute;
     left: 25%;
-    top: 800px;
+    top: 900px;
     width: 50%;
     border-style: ridge;
   }
