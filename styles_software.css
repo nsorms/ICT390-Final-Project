@@ -19,3 +19,71 @@ a:link{
   }
 a:visited{  color:#800080;
 }
+/*for large screens*/
+@media screen and (min-width: 1000px){
+nav{
+  position: absolute;
+  left: 25%;
+  width: auto;
+  }
+#logo{
+  position: absolute;
+  right:25%;
+}
+footer{
+  display: inline-block;
+  text-align: center;
+  font-size: x-small;
+  position: absolute;
+  left: 25%;
+  top: 650px;
+  width: 50%;
+  border-style: ridge;
+}
+}
+/*for medium screens*/
+@media screen and (min-width: 700px) and (max-width: 1000px){
+nav{
+  position: absolute;
+  left: 15%;
+  width: auto;
+  }
+#logo{
+  position: absolute;
+  right:15%;
+  height: 250px;
+  width: auto;
+}
+footer{
+  display: inline-block;
+  text-align: center;
+  font-size: x-small;
+  position: absolute;
+  left: 25%;
+  top: 650px;
+  width: 50%;
+  border-style: ridge;
+}
+}
+/*for small screens*/
+@media screen and (max-width: 700px){
+nav{
+  position: relative;
+  width: auto;
+  }
+#logo{
+  position: relative;
+  height: 250px;
+  width: auto;
+}
+footer{
+  display: inline-block;
+  text-align: center;
+  font-size: x-small;
+  position: absolute;
+  left: 25%;
+  top: 900px;
+  width: 50%;
+  border-style: ridge;
+}
+}
