@@ -1,0 +1,27 @@
+header{
+  display: block;
+  text-align: center;
+  min-width: 350px;
+}
+body{
+  min-width: 350px;
+  background-color:#9fcfcf;
+}
+
+/*Gets rid of the bullets */
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+}
+a:link{
+    color:#800080;
+  }
+a:visited{  color:#800080;
+}
