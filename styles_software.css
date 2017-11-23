@@ -31,13 +31,37 @@ nav{
   position: absolute;
   right:25%;
 }
+#os{
+  position: absolute;
+  top: 500px;
+}
+#os_title{
+  display: block;
+  text-align: center;
+  border-style: solid;
+}
+#os_linux{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#os_windows{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+
 footer{
   display: inline-block;
   text-align: center;
   font-size: x-small;
   position: absolute;
   left: 25%;
-  top: 650px;
+  bottom: 5px;
   width: 50%;
   border-style: ridge;
 }
@@ -54,6 +78,29 @@ nav{
   right:15%;
   height: 250px;
   width: auto;
+}
+#os{
+  position: absolute;
+  top: 500px;
+}
+#os_title{
+  display: block;
+  text-align: center;
+  border-style: solid;
+}
+#os_linux{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#os_windows{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
 }
 footer{
   display: inline-block;
@@ -76,6 +123,29 @@ nav{
   position: relative;
   height: 250px;
   width: auto;
+}
+#os{
+  position: absolute;
+  top: 600px;
+}
+#os_title{
+  display: block;
+  text-align: center;
+  border-style: solid;
+}
+#os_linux{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#os_windows{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
 }
 footer{
   display: inline-block;
