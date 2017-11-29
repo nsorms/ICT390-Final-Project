@@ -3,6 +3,12 @@ header{
   text-align: center;
   min-width: 350px;
 }
+
+#logo{
+  position: absolute;
+  right:25%;
+}
+
 body{
   min-width: 350px;
   background-color:#9fcfcf;
