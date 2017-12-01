@@ -15,10 +15,20 @@ ul li a {
   padding: 5px;
   text-decoration: none;
 }
+ul li{
+  list-style-type: none;
+  display: block;
+  padding: 5px;
+}
 a:link{
     color:#800080;
   }
 a:visited{  color:#800080;
+}
+.title{
+  display: block;
+  text-align: center;
+  border-style: solid;
 }
 /*for large screens*/
 @media screen and (min-width: 1000px){
@@ -35,11 +45,6 @@ nav{
   position: absolute;
   top: 500px;
 }
-#os_title{
-  display: block;
-  text-align: center;
-  border-style: solid;
-}
 #os_linux{
   display: block;
   text-align: center;
@@ -48,6 +53,93 @@ nav{
   width: 48%;
 }
 #os_windows{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+#music{
+position: absolute;
+top: 800px;
+}
+#rhythmbox{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#mediaplayer{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+
+#wordprocessing{
+position: absolute;
+top: auto;
+}
+#libreoffice{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#mword{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+#internetbrowser{
+position: absolute;
+top: auto;
+}
+#firefox{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#w3m{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#edge{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+#chrome{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+#antivirus{
+position: absolute;
+top: auto;
+}
+#linuxav{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#windowsav{
   display: block;
   text-align: center;
   border-style: dashed;
@@ -66,7 +158,7 @@ footer{
   border-style: ridge;
 }
 }
-/*for medium screens*/
+/*for medium screens
 @media screen and (min-width: 700px) and (max-width: 1000px){
 nav{
   position: absolute;
@@ -113,7 +205,7 @@ footer{
   border-style: ridge;
 }
 }
-/*for small screens*/
+/*for small screens
 @media screen and (max-width: 700px){
 nav{
   position: relative;
