@@ -30,8 +30,7 @@ a:visited{  color:#800080;
   text-align: center;
   border-style: solid;
 }
-/*for large screens*/
-@media screen and (min-width: 1000px){
+
 nav{
   position: absolute;
   left: 25%;
@@ -49,6 +48,7 @@ nav{
   display: block;
   text-align: center;
   border-style: dashed;
+  height: 250px;
   float: right;
   width: 48%;
 }
@@ -56,12 +56,13 @@ nav{
   display: block;
   text-align: center;
   border-style: dashed;
+  height: 250px;
   float: left;
   width: 48%;
 }
 #music{
 position: absolute;
-top: 800px;
+top: 900px;
 }
 #rhythmbox{
   display: block;
@@ -80,7 +81,7 @@ top: 800px;
 
 #wordprocessing{
 position: absolute;
-top: auto;
+top: 1400px;
 }
 #libreoffice{
   display: block;
@@ -98,45 +99,58 @@ top: auto;
 }
 #internetbrowser{
 position: absolute;
-top: auto;
+top: 1650px;
 }
 #firefox{
   display: block;
   text-align: center;
   border-style: dashed;
   float: right;
+  position: relative;
+  height: 125px;
   width: 48%;
+  margin: 1px;
 }
 #w3m{
   display: block;
   text-align: center;
   border-style: dashed;
   float: right;
+  position: relative;
+  height: 125px;
   width: 48%;
+  margin: 1px;
 }
 #edge{
   display: block;
   text-align: center;
   border-style: dashed;
   float: left;
+  position: relative;
+  height: 125px;
   width: 48%;
+  margin: 1px;
 }
 #chrome{
   display: block;
   text-align: center;
   border-style: dashed;
   float: left;
+  position: relative;
+  height: 125px;
   width: 48%;
+  margin: 1px;
 }
 #antivirus{
 position: absolute;
-top: auto;
+top: 2100px;
 }
 #linuxav{
   display: block;
   text-align: center;
   border-style: dashed;
   float: right;
+  height: 150px;
   width: 48%;
 }
 #windowsav{
@@ -144,6 +158,7 @@ top: auto;
   text-align: center;
   border-style: dashed;
   float: left;
+  height: 150px;
   width: 48%;
 }
 
@@ -153,100 +168,7 @@ footer{
   font-size: x-small;
   position: absolute;
   left: 25%;
-  bottom: 5px;
+  top: 2400px;
   width: 50%;
   border-style: ridge;
-}
-}
-/*for medium screens
-@media screen and (min-width: 700px) and (max-width: 1000px){
-nav{
-  position: absolute;
-  left: 15%;
-  width: auto;
-  }
-#logo{
-  position: absolute;
-  right:15%;
-  height: 250px;
-  width: auto;
-}
-#os{
-  position: absolute;
-  top: 500px;
-}
-#os_title{
-  display: block;
-  text-align: center;
-  border-style: solid;
-}
-#os_linux{
-  display: block;
-  text-align: center;
-  border-style: dashed;
-  float: right;
-  width: 48%;
-}
-#os_windows{
-  display: block;
-  text-align: center;
-  border-style: dashed;
-  float: left;
-  width: 48%;
-}
-footer{
-  display: inline-block;
-  text-align: center;
-  font-size: x-small;
-  position: absolute;
-  left: 25%;
-  top: 650px;
-  width: 50%;
-  border-style: ridge;
-}
-}
-/*for small screens
-@media screen and (max-width: 700px){
-nav{
-  position: relative;
-  width: auto;
-  }
-#logo{
-  position: relative;
-  height: 250px;
-  width: auto;
-}
-#os{
-  position: absolute;
-  top: 600px;
-}
-#os_title{
-  display: block;
-  text-align: center;
-  border-style: solid;
-}
-#os_linux{
-  display: block;
-  text-align: center;
-  border-style: dashed;
-  float: right;
-  width: 48%;
-}
-#os_windows{
-  display: block;
-  text-align: center;
-  border-style: dashed;
-  float: left;
-  width: 48%;
-}
-footer{
-  display: inline-block;
-  text-align: center;
-  font-size: x-small;
-  position: absolute;
-  left: 25%;
-  top: 900px;
-  width: 50%;
-  border-style: ridge;
-}
 }
