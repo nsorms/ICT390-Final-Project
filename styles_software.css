@@ -15,13 +15,22 @@ ul li a {
   padding: 5px;
   text-decoration: none;
 }
+ul li{
+  list-style-type: none;
+  display: block;
+  padding: 5px;
+}
 a:link{
     color:#800080;
   }
 a:visited{  color:#800080;
 }
-/*for large screens*/
-@media screen and (min-width: 1000px){
+.title{
+  display: block;
+  text-align: center;
+  border-style: solid;
+}
+
 nav{
   position: absolute;
   left: 25%;
@@ -31,60 +40,135 @@ nav{
   position: absolute;
   right:25%;
 }
-footer{
-  display: inline-block;
+#os{
+  position: absolute;
+  top: 500px;
+}
+#os_linux{
+  display: block;
   text-align: center;
-  font-size: x-small;
-  position: absolute;
-  left: 25%;
-  top: 650px;
-  width: 50%;
-  border-style: ridge;
-}
-}
-/*for medium screens*/
-@media screen and (min-width: 700px) and (max-width: 1000px){
-nav{
-  position: absolute;
-  left: 15%;
-  width: auto;
-  }
-#logo{
-  position: absolute;
-  right:15%;
+  border-style: dashed;
   height: 250px;
-  width: auto;
+  float: right;
+  width: 48%;
 }
-footer{
-  display: inline-block;
+#os_windows{
+  display: block;
   text-align: center;
-  font-size: x-small;
-  position: absolute;
-  left: 25%;
-  top: 650px;
-  width: 50%;
-  border-style: ridge;
-}
-}
-/*for small screens*/
-@media screen and (max-width: 700px){
-nav{
-  position: relative;
-  width: auto;
-  }
-#logo{
-  position: relative;
+  border-style: dashed;
   height: 250px;
-  width: auto;
+  float: left;
+  width: 48%;
 }
+#music{
+position: absolute;
+top: 900px;
+}
+#rhythmbox{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#mediaplayer{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+
+#wordprocessing{
+position: absolute;
+top: 1400px;
+}
+#libreoffice{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  width: 48%;
+}
+#mword{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  width: 48%;
+}
+#internetbrowser{
+position: absolute;
+top: 1650px;
+}
+#firefox{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  position: relative;
+  height: 125px;
+  width: 48%;
+  margin: 1px;
+}
+#w3m{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  position: relative;
+  height: 125px;
+  width: 48%;
+  margin: 1px;
+}
+#edge{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  position: relative;
+  height: 125px;
+  width: 48%;
+  margin: 1px;
+}
+#chrome{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  position: relative;
+  height: 125px;
+  width: 48%;
+  margin: 1px;
+}
+#antivirus{
+position: absolute;
+top: 2100px;
+}
+#linuxav{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: right;
+  height: 150px;
+  width: 48%;
+}
+#windowsav{
+  display: block;
+  text-align: center;
+  border-style: dashed;
+  float: left;
+  height: 150px;
+  width: 48%;
+}
+
 footer{
   display: inline-block;
   text-align: center;
   font-size: x-small;
   position: absolute;
   left: 25%;
-  top: 900px;
+  top: 2400px;
   width: 50%;
   border-style: ridge;
-}
 }
